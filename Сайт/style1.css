@@ -1,0 +1,105 @@
+body{
+  background-color: #E5DCF9;
+  margin: 30px;
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  color: #A25ED8;
+  text-decoration: underline #D5A6FF;
+  margin-right: auto;
+  align-self: center;
+}
+
+h2{
+  text-align: center;
+  font-size: 25px;
+  color: #A25ED8;
+  align-self: center;
+}
+  
+.page-header{
+  display: grid;
+  grid-template-areas: "back caption home";
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  grid-column-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.back{
+  grid-area: back;
+}
+
+.caption{
+  grid-area: caption;
+}
+
+.home{
+  grid-area: home;
+  margin-top: 12px;
+}
+
+.content{
+  display: grid;
+  grid-template-areas: "blooming blooming1 flower-3"
+                       "veronica veronica1 flower-3"
+                       "lavender lavender1 flower-3"
+                       "plenum plenum1 flower-3"
+                       "astrantia astrantia1 flower-3";
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-items: center;
+}
+
+li{
+  list-style-type: none;
+  padding: 0;
+}
+
+.blooming{
+  grid-area: blooming;
+}
+
+.veronica{
+  grid-area: veronica;
+}
+
+.lavender{
+  grid-area: lavender;
+}
+
+.plenum{
+  grid-area: plenum;
+}
+
+.astrantia{
+  grid-area: astrantia;
+}
+
+.blooming1{
+  grid-area: blooming1;
+}
+
+.veronica1{
+  grid-area: veronica1;
+}
+
+.lavender1{
+  grid-area: lavender1;
+}
+
+.plenum1{
+  grid-area: plenum1;
+}
+
+.astrantia1{
+  grid-area: astrantia1;
+}
+
+.flower-3{
+  grid-area: flower-3;
+}

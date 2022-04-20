@@ -1,0 +1,126 @@
+body{
+  background-color: #E5DCF9;
+  margin: 30px;
+  padding-right: 24%;
+  padding-left: 24%;
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  color: #A25ED8;
+  text-decoration: underline #D5A6FF;
+  margin-right: auto;
+  align-self: center;
+}
+
+.page-header{
+  display: grid;
+  grid-template-areas: "back caption home";
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  grid-column-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.back{
+  grid-area: back;
+}
+
+.caption{
+  grid-area: caption;
+}
+
+.home{
+  grid-area: home;
+  margin-top: 12px;
+}
+
+li{
+  list-style-type: none;
+  padding: 0;
+}
+
+.content1{
+  display: grid;
+  grid-template-areas: "flower definition";
+  grid-template-columns: 350px auto;
+  justify-content: center;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-items: center;
+  margin-bottom: 30px;
+}
+
+.content2{
+  display: grid;
+  grid-template-areas: "veronica ecoapp"
+                       "myveronica ecoapp";
+  grid-template-columns: 160px auto;
+  justify-content: center;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-items: center;
+  margin-bottom: 30px;
+}
+.content3{
+  display: grid;
+  grid-template-areas: "flower-4 cosmitology flower-5";
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-items: center;
+  padding-bottom: 0;
+}
+
+.flower-4{
+  grid-area: flower-4;
+}
+
+.cosmitology{
+  grid-area: cosmitology;
+  border: 3px solid #A563DA;
+}
+
+.flower-5{
+  grid-area: flower-5;
+}
+
+.flower{
+  grid-area: flower;
+}
+
+.veronica{
+  grid-area: veronica;
+}
+
+.myveronica{
+  grid-area: myveronica;
+}
+
+.definition{
+  grid-area: definition;
+  border: 3px solid #A563DA;
+}
+
+.ecoapp{
+  grid-area: ecoapp;
+  border: 3px solid #A563DA;
+}
+
+.folkmed{
+  grid-area: folkmed;
+  border: 3px solid #A563DA;
+}
+
+article{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.photo{
+  margin-top: 20px;
+}

@@ -1,0 +1,95 @@
+body{
+  background-color: #E5DCF9;
+  margin: 30px;
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  color: #A25ED8;
+  text-decoration: underline #D5A6FF;
+  margin-right: auto;
+  align-self: center;
+}
+
+.page-header{
+  display: grid;
+  grid-template-areas: "back caption home";
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  grid-column-gap: 30px;
+  margin-bottom: 30px;
+}
+
+.back{
+  grid-area: back;
+}
+
+.caption{
+  grid-area: caption;
+}
+
+.home{
+  grid-area: home;
+  margin-top: 12px;
+}
+
+li{
+  list-style-type: none;
+  padding: 0;
+}
+
+.content1{
+  display: grid;
+  grid-template-areas: "blooming definition"
+                       "myblooming ecoapp";
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-items: center;
+  margin-bottom: 30px;
+}
+
+.blooming{
+  grid-area: blooming;
+}
+
+.myblooming{
+  grid-area: myblooming;
+}
+
+.definition{
+  grid-area: definition;
+  border: 3px solid #A563DA;
+}
+
+.ecoapp{
+  grid-area: ecoapp;
+  border: 3px solid #A563DA;
+}
+
+article{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.content2{
+  display: grid;
+  grid-template-areas: "folkmed bloomingj";
+  grid-template-columns: repeat(2, auto);
+  justify-content: center;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  justify-items: center;
+}
+
+.folkmed{
+  grid-area: folkmed;
+  border: 3px solid #A563DA;
+}
+

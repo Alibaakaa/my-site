@@ -1,0 +1,80 @@
+body{
+  background-color: #E5DCF9;
+  margin: 30px;
+}
+
+.page-header{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+h1{
+  text-align: center;
+  font-size: 30px;
+  color: #A25ED8;
+  text-decoration: underline #D5A6FF;
+  margin-right: auto;
+  align-self: center;
+}
+
+.flower-1{
+  margin-left: auto;
+}
+
+.content{
+  display: grid;
+  grid-template-areas: "fpink fblue fwhite"
+                       "fdarkblue fpurple f2"
+                       "fyellow fred f2";
+  grid-template-columns: repeat(3, auto);
+  justify-content: center;
+  grid-column-gap: 40px;
+  grid-row-gap: 30px;
+  justify-items: center;
+}
+
+li{
+  list-style-type: none;
+  padding: 0;
+}
+
+.flowerc{
+  border: 3px solid #D5A6FF;
+}
+
+.flower-2{
+  grid-row: span 2;
+}
+
+.fpink{
+  grid-area: fpink;
+}
+
+.fblue{
+  grid-area: fblue;
+}
+
+.fwhite{
+  grid-area: fwhite;
+}
+
+.fdarkblue{
+  grid-area: fdarkblue;
+}
+
+.fpurple{
+  grid-area: fpurple;
+}
+
+.fyellow{
+  grid-area: fyellow;
+}
+
+.fred{
+  grid-area: fred;
+}
+
+.f2{
+  grid-area: f2;
+}
+
